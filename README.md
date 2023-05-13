@@ -1,6 +1,6 @@
 # Oussama Jmili Portfolio
 
-This is the repository for my personal portfolio website built using React. 
+This is the repository for my personal portfolio website built using React.   
 You can visit the live website at [https://oussamajmili.com](https://oussamajmili.com).
 
 ## Description
