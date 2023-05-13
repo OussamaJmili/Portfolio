@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.jobs-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-page-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.job-details {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.job-details:hover{
+    .job-company p a{
+        color: #3498db;
+    }
+
+}
+
+.job-title {
+  color: #444;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.job-title:hover {
+  color: #3498db;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.job-company{
+
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  transition: color .7s;
+}
+.job-company p a{
+  text-decoration: none;
+  color: #2c3e50;
+  transition: color .7s;
+}
+
+.job-company p:hover {
+  /* color: #3498db; */
+  cursor: pointer;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.job-dates {
+  color: #999;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+.job-description {
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.6;
+    animation: fadeIn 1s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .job-skills {
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in;
+  }
+  
+  .skills-title {
+    color: #666;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list {
+    padding-left: 20px;
+  }
+  
+  .skill-item {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .job-type {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .job-type-fulltime {
+    background-color: #3498db;
+  }
+  
+  .job-type-parttime {
+    background-color: #f1c40f;
+  }
+  
+  .job-type-remote {
+    background-color: #2ecc71;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skill-item::before {
+    content: '• ';
+    color: #e74c3c;
+  }
+  .job-description p {
+    position: relative;
+  }
+  
+  .job-description:hover p::before {
+    content: '• ';
+    color: #2c3e50;
+    position: absolute;
+    left: -20px; /* adjust as needed */
+    animation: flash .8s infinite;
+  }
+  
+  @keyframes flash {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }

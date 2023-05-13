@@ -1,0 +1,119 @@
+{
+  "previousJobs": "Previous Jobs",
+  "header": {
+    "home": "Home",
+    "jobs": "Jobs",
+    "resume": "Resume",
+    "projects": "Projects"
+  },
+  "intro": {
+    "hello": "Hello, I'm",
+    "name": "Oussama",
+    "part1": "Hi, I'm a third year software engineering student at Concordia University.",
+    "part2": "With a passion for innovative software solutions, my experience includes Java, JavaScript, React, and Python. I aspire to become a full-stack developer and am eager to work with others to create impactful software. I also enjoy exploring the intersection of computer science and discrete mathematics.",
+    "part3": "I'm excited to collaborate with other professionals in the software development field to create innovative solutions that make a difference."
+  },
+  "tooltip": {
+    "lion": "Oussama is of Arabic origin and means \"lion\"."
+  },
+  "jobs": [
+    {
+      "id": 1,
+      "title": "DevOps Full Ftack Developer Intern",
+      "company": "Valsoft",
+      "companyLink": "https://www.linkedin.com/company/valsoft-corporation/",
+      "logo": "/images/Valsoft_logo.png",
+      "dates": "May 2023 - Present",
+      "description": [""]
+    },
+    {
+      "id": 2,
+      "title": "Software Engineering Intern",
+      "company": "GoodFood",
+      "companyLink": "https://www.linkedin.com/company/goodfood-market/",
+      "logo": "/images/GoodFood_logo2.png",
+      "dates": "April 2022 - August 2022",
+      "description": [
+        "As a Software Developer Intern at GoodFood, I played a pivotal role in developing and implementing custom software solutions to streamline operations, improve communication, and enhance the efficiency of various departments across the company. My main responsibilities included:",
+        "Collaborating with cross-functional teams to gather requirements, identify pain points, and propose technology-driven solutions tailored to their needs.",
+        "Developing web applications using Google Apps Script, JavaScript, and API integrations to automate processes, improve data visualization, and facilitate real-time communication.",
+        "Implementing a maintenance/cleaning reporting system, which included a user-friendly web interface for machine operators to report issues and a Slack bot to notify the relevant personnel, improving response time and overall equipment effectiveness.",
+        "Creating a material planning tool, which consolidated data from multiple Google Sheets and presented it in a visually appealing and easy-to-understand format.",
+        "Continuously iterating on existing solutions, incorporating user feedback to refine features and functionality to better serve the needs of internal stakeholders.",
+        "Demonstrating strong problem-solving and communication skills throughout the internship, leading to successful project execution and enhanced collaboration between teams."
+      ],
+      "jobSkills": ["JavaScript","Web Application Development", "Google Apps Script", "API Integrations", "Data Visualization", "Slack Bot Integration", "Google Sheets", "Problem Solving", "Communication", "Google Sheets Automation", "HTML5", "Inventory Management"]
+    }
+  ],
+  "featuredProjects": "Featured Projects",
+  "completed": "Completed",
+  "github": "GitHub",
+  "skills": "Skills",
+  "projects": [
+    {
+      "id": 1,
+      "title": "Professional Networking Platform",
+      "description": "A LinkedIn-inspired networking platform designed to connect professionals and promote collaboration, with a modern user interface and features to enhance productivity.",
+      "icon": "🌐",
+      "time": "April, 2023",
+      "projectLink": "https://github.com/OussamaJmili/Professional-Networking-Platform",
+      "skills": [
+        "ReactJS",
+        "Redux",
+        "Firebase",
+        "Firestore",
+        "Responsive Design",
+        "Scalable Architecture"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ShopBright",
+      "description": "An e-commerce website designed to provide fast, secure payment processing and a seamless user experience for shoppers.",
+      "icon": "🛍️",
+      "time": "April, 2022",
+      "projectLink": "https://github.com/OussamaJmili/ShopBright",
+      "skills": [
+        "ReactJS",
+        "Firebase",
+        "Stripe",
+        "Responsive Design",
+        "Scalable Architecture"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "LingoZone",
+      "description": "A website built to showcase the language center's services and offerings, designed to attract potential students and promote the center to a wider audience.",
+      "icon": "🌍",
+      "time": "October, 2020",
+      "projectLink": "https://github.com/OussamaJmili/LingoZone",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "PHP",
+        "Responsive Design",
+        "User Interface Design"
+      ]
+    }
+  ],
+  "education": {
+    "title": "Education",
+    "data": [
+      {
+        "id": 1,
+        "institution": "Concordia University",
+        "degree": "Bachelor of Engineering - Software Engineering",
+        "dates": "2020 - present"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© {{year}} Oussama Jmili. All rights reserved.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email"
+  }
+  
+}

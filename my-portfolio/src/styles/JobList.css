@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.job-list {
+  padding: 2rem 0;
+  /* background: linear-gradient(135deg, #6dd5ed, #2193b0); */
+  background-image: url('/public/images/ezgif.com-webp-to-jpg\ \(2\).jpg');
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.job-list-title {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #2c3e50;
+  animation: fadeIn 1s ease-in;
+}
+
+.job-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.job-card-container:hover .job-card {
+  opacity: 0.5;
+}
+
+.job-card-container .job-card:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

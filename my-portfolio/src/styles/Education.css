@@ -1,0 +1,12 @@
+.education {
+  padding: 2rem 0;
+  /* background-color: #f9f9f9; */
+  background-image: url('/public/images/webb.png');
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.education h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Computer+Modern+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inconsolata:wght@400;500;600&display=swap');
+
+
+
+.resume {
+    width: 50%;
+    margin: 100px auto;
+    font-family: 'Computer Modern Serif', serif;
+    border: 3px solid #23527c;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto 50px; */
+}
+
+.header-left {
+    align-self: center;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 100;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: normal;
+    color: #777777;
+    margin-top: 0;
+}
+
+.resume-intro {
+    font-family: 'Raleway', sans-serif;
+    color: #564C4D;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.contact {
+    font-size: 13px;
+    font-style: italic;
+    color: #777777;
+    text-decoration: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.contact span {
+    display: inline-block;
+    width: 100px;
+}
+
+.contact a:hover, 
+.contact a:focus {
+    color: #23527c;
+}
+
+
+
+.section-title {
+    font-size: 20px;
+    font-weight: 100;
+    color: #427AB6;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 11%;
+    position: relative;
+}
+
+.section-title:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 9.5%; /* Adjust this as needed */
+    height: 4px;
+    background-color: #427AB6;
+    margin-left: .5%;
+}
+
+.section-content {
+    padding-left: 11%;
+}
+
+.bullet-point {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: black;
+    position: relative;
+}
+
+.bullet-point:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: 2px solid #427AB6;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.education-section {
+    /* padding-left: 60%; */
+    position: relative;
+}
+
+
+.education-section .section-content {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    font-size: 16px;
+}
+.degree-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+
+
+.degree {
+    font-weight: bold;
+}
+
+.university-location {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.company-name {
+    font-family: 'Inconsolata', monospace;
+    /* font-weight: 5500; */
+}
+
+.education-section .section-content .courses {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* Style for the date */
+.education-section .section-date {
+    text-align: right;
+    font-size: 15px;
+    color: #333;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.work-section .bullet-point {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: black;
+    position: relative;
+}
+
+.work-section .bullet-point:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: 2px solid #427AB6;
+    border-radius: 50%;
+}
+/* .job-skills {
+
+} */
+.job-skills span {
+    /* font-weight: bold; */
+    background-color: #427AB6;
+    border-radius: 20px;
+    padding: 3px 7px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.job-skills span:hover {
+    background-color: black;
+}
+
+
+
+
+
+.project-section {
+    position: relative;
+}
+
+.project-section .section-content {
+    font-size: 16px;
+}
+
+.project-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.project-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.project-location {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.project-location a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.project-location a:hover, 
+.project-location a:focus {
+    color: #23527c;
+}
+
+.project-section .section-date {
+    text-align: right;
+    font-size: 15px;
+    color: #333;
+}
+
+.download-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #427AB6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    
+  }
+  
+  .download-button:hover {
+    background-color: #23527c;
+    z-index: 999;
+  }
+  
+  .download-button svg {
+    margin-right: 5px;
+  }
+
+
+
+  @media screen and (max-width: 1024px) {
+    .resume {
+      width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+    .resume {
+      width: 90%;
+    }
+  
+    .resume-header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .header-right {
+      text-align: center;
+    }
+  
+    .bullet-point:before {
+      left: -20px;
+    }
+  
+    .section-content {
+      padding-left: 8%;
+    }
+  
+    .section-title:before {
+      width: 7.5%;
+      margin-left: 1%;
+    }
+  
+    .education-section .section-content .courses {
+      flex-direction: column;
+    }
+  
+    .degree-date {
+      flex-direction: column;
+    }
+  
+    .project-date {
+      flex-direction: column;
+    }
+
+    @media screen and (max-width: 768px) {
+        .download-button {
+            /* position: relati; */
+            /* bottom: auto; */
+            /* top: 10px; */
+            right: 10px;
+            margin: 0;
+            background-color: rgba(35,82,124,1);
+            z-index: 10;
+            opacity: 1;
+            
+        }
+        .download-button span {
+            display: none;
+        }
+        .download-button svg {
+            margin-right: 0;
+          }
+        
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .resume {
+      /* width: 100%; */
+      /* margin: 50px 0; */
+      padding: 0.5rem;
+      margin-top: 100px;
+      margin-bottom: 20px;
+    }
+  
+    .name {
+      font-size: 36px;
+    }
+  
+    .title {
+      font-size: 18px;
+    }
+  
+    .contact {
+      font-size: 12px;
+    }
+  
+    .section-title {
+      font-size: 18px;
+    }
+  
+    .bullet-point:before {
+      left: -15px;
+    }
+  
+    .section-content {
+      padding-left: 5%;
+    }
+  
+    .section-title:before {
+      width: 4.5%;
+      margin-left: 0.5%;
+    }
+  
+    .education-section .section-content .courses {
+      flex-direction: column;
+    }
+  
+    .degree-date {
+      flex-direction: column;
+    }
+  
+    .project-date {
+      flex-direction: column;
+    }
+  }

@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import JobDetailsPage from './pages/JobDetailsPage';
+import JobsPage from './pages/JobsPage';
+import ResumePage from './pages/ResumePage';
+
+import "./styles/App.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <I18nextProvider i18n={i18n}>
+      <Router>
+        <div className="App">
+          <Header />
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/jobs" element={<JobsPage />} />
+              <Route path="/resume" element={<ResumePage />} />
+              <Route path="/jobs/:jobId" element={<JobDetailsPage />} />
+            </Routes>
+          </div>
+          <Footer />
+        </div>
+      </Router>
+    </I18nextProvider>
+
+    
   );
 }
 

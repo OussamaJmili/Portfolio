@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.intro {
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: #fff;
+  position: relative;
+  margin-top: 80px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 1s ease-in;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  animation: fadeIn 1s ease-in 0.5s forwards;
+  opacity: 0;
+}
+
+.typed-text {
+  font-weight: 400;
+  display: inline-block;
+}
+
+.name-tooltip {
+  position: relative;
+  cursor: pointer;
+  display: inline;
+  color: #FFD1BA;
+}
+
+.name-tooltip:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.name-tooltip i {
+  margin-left: 4px;
+  font-size: .9rem;
+  vertical-align: middle;
+  color: white; 
+}
+
+
+.name-tooltip i:hover ~ .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+.tooltip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 15px);
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.3s, visibility 0.3s;
+  z-index: 200;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgba(0, 0, 0, 0.8);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "previousJobs": "Emplois Précédents",
+  "header": {
+    "home": "Accueil",
+    "jobs": "Emplois",
+    "resume": "CV",
+    "projects": "Projets"
+  },
+  "intro": {
+    "hello": "Bonjour, je suis",
+    "name": "Oussama",
+    "part1": "Salut, je suis un étudiant en troisième année de génie logiciel à l'Université Concordia.",
+    "part2": "Avec une passion pour les solutions logicielles innovantes, mon expérience comprend Java, JavaScript, React et Python. Je souhaite devenir un développeur full-stack et j'ai hâte de travailler avec d'autres pour créer des logiciels impactants. J'aime également explorer l'intersection de l'informatique et des mathématiques discrètes.",
+    "part3": "Je suis ravi de collaborer avec d'autres professionnels du développement logiciel pour créer des solutions innovantes qui font la différence."
+  },
+  "tooltip": {
+    "lion": "Oussama est d'origine arabe et signifie \"lion\"."
+  },
+  "jobs": [
+    {
+      "id": 1,
+      "title": "DevOps Full Ftack Developer Intern",
+      "company": "Valsoft",
+      "companyLink": "https://www.linkedin.com/company/valsoft-corporation/",
+      "logo": "/images/Valsoft_logo.png",
+      "dates": "mai 2023 - présent",
+      "description": [""]
+    },
+{
+  "id": 2,
+  "title": "Stagiaire en Génie Logiciel",
+  "company": "GoodFood",
+  "companyLink": "https://www.linkedin.com/company/goodfood-market/",
+  "logo": "/images/GoodFood_logo2.png",
+  "dates": "Avril 2022 - Août 2022",
+  "description": [
+    "En tant que stagiaire développeur de logiciels chez GoodFood, j'ai joué un rôle essentiel dans le développement et la mise en œuvre de solutions logicielles personnalisées pour rationaliser les opérations, améliorer la communication et renforcer l'efficacité de divers départements de l'entreprise. Mes principales responsabilités comprenaient :",
+    "Collaboration avec des équipes interfonctionnelles pour recueillir les exigences, identifier les points de douleur et proposer des solutions axées sur la technologie adaptées à leurs besoins.",
+    "Développement d'applications web en utilisant Google Apps Script, JavaScript et des intégrations d'API pour automatiser les processus, améliorer la visualisation des données et faciliter la communication en temps réel.",
+    "Mise en place d'un système de rapport de maintenance/nettoyage, qui comprenait une interface web conviviale pour que les opérateurs de machines signalent les problèmes et un bot Slack pour notifier le personnel concerné, améliorant ainsi le temps de réponse et l'efficacité globale des équipements.",
+    "Création d'un outil de planification de matériel, qui a consolidé les données de plusieurs Google Sheets et les a présentées dans un format visuellement attrayant et facile à comprendre.",
+    "Itération continue sur les solutions existantes, incorporation des commentaires des utilisateurs pour affiner les fonctionnalités et la fonctionnalité pour mieux répondre aux besoins des parties prenantes internes.",
+    "Démonstration de solides compétences en résolution de problèmes et en communication tout au long du stage, conduisant à une exécution réussie du projet et à une meilleure collaboration entre les équipes."
+  ],
+  "jobSkills": ["JavaScript","Développement d'Applications Web", "Google Apps Script", "Intégrations d'API", "Visualisation des Données", "Intégration de Bot Slack", "Google Sheets", "Résolution de Problèmes", "Communication", "Automatisation Google Sheets", "HTML5", "Gestion des Stocks"]
+}
+  ],
+  "featuredProjects": "Projets en Vedette",
+  "completed": "Terminé",
+  "github": "GitHub",
+  "skills": "Compétences",
+  "projects": [
+    {
+      "id": 1,
+      "title": "Professional Networking Platform",
+      "description": "Une plateforme de réseautage inspirée de LinkedIn, conçue pour connecter les professionnels et promouvoir la collaboration, avec une interface utilisateur moderne et des fonctionnalités pour améliorer la productivité.",
+      "icon": "🌐",
+      "time": "avril 2023",
+      "projectLink": "https://github.com/OussamaJmili/Professional-Networking-Platform",
+      "skills": [
+        "ReactJS",
+        "Redux",
+        "Firebase",
+        "Firestore",
+        "Design Réactif",
+        "Architecture Évolutive"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ShopBright",
+      "description": "Un site web de commerce électronique conçu pour offrir un traitement des paiements rapide et sécurisé, ainsi qu'une expérience utilisateur fluide pour les acheteurs.",
+      "icon": "🛍️",
+      "time": "avril 2022",
+      "projectLink": "https://github.com/OussamaJmili/ShopBright",
+      "skills": [
+        "ReactJS",
+        "Firebase",
+        "Stripe",
+        "Design Réactif",
+        "Architecture Évolutive"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "LingoZone",
+      "description": "Un site Web conçu pour présenter les services et les offres du centre de langues, destiné à attirer des étudiants potentiels et à promouvoir le centre auprès d'un public plus large.",
+      "icon": "🌍",
+      "time": "octobre 2020",
+      "projectLink": "https://github.com/OussamaJmili/LingoZone",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "PHP",
+        "Design Réactif",
+        "Conception d'Interface Utilisateur"
+      ]
+    }
+  ],
+  "education": {
+    "title": "Éducation",
+    "data": [
+      {
+        "id": 1,
+        "institution": "Université Concordia",
+        "degree": "Baccalauréat en génie - Génie logiciel",
+        "dates": "2020 - présent"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© {{year}} Oussama Jmili. Tous droits réservés.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email"
+  }
+}
