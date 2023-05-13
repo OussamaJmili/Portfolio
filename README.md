@@ -10,7 +10,7 @@ This portfolio showcases my skills, projects, and experience as a Software engin
 ## Features
 
 - Home section with an introduction and brief overview
-- - Experience section detailing my professional experience
+- Experience section detailing my professional experience
 - Projects section highlighting my notable projects
 - Education section
 - Contact section for users to get in touch with me
