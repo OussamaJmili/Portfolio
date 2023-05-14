@@ -114,5 +114,69 @@
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "Email"
+  },
+    "resume": {
+      "downloadResume": "Télécharger le CV",
+      "name": "Oussama Jmili",
+      "title": "Étudiant en Ingénierie Logicielle",
+      "contactEmail": "oussamajmili16@gmail.com",
+      "contactPhone": "+1 438 508 46 15",
+      "contactWebsite": "oussamajmili.com",
+      "contactLinkedin": "oussama-jmili",
+      "contactGithub": "OussamaJmili",
+      "intro": "Étudiant en ingénierie logicielle de troisième année, hautement motivé et désireux de saisir les opportunités pour apprendre et acquérir une expérience pratique dans le domaine.",
+      "skillsTitle": "RÉSUMÉ DES COMPÉTENCES ET QUALIFICATIONS",
+      "skills": [
+        "Systèmes d'exploitation: Windows, Linux, Android",
+        "Applications: Word, Excel, PPT, Eclipse, Adobe, Visual Studio Code",
+        "Programmation: Java, Html, CSS, C, C#, JavaScript, Python, React, Lisp, Prolog, GitHub, Git, Agile",
+        "Langues: Français, Anglais, Arabe (Standard & Marocain), Japonais",
+        "Licences & Certifications: Permis de conduire valide, Certificat de prise de parole en public"
+      ],
+      "educationTitle": "Éducation",
+      "education": {
+        "degree": "Baccalauréat en Ingénierie Logicielle (Co-op) ",
+        "university": "Université Concordia, Montréal, QC",
+        "dates": "2020 - 2024",
+        "coursesLabel": "Cours Pertinents",
+        "coursesList": [
+          "COMP 248-249 | Programmation OOP",
+          "COMP 352 | Structures de Données & Algorithmes"
+        ]
+      },
+      "workTitle": "Expérience Professionnelle",
+      "work": {
+        "role": "Stagiaire, Ingénieur Logiciel ",
+        "company": "GoodFood, ",
+        "location": "Montréal, QC, CA",
+        "dates": "Mai 2022 - Août 2022",
+        "tasks": [
+          "Développement d'une application web pour suivre la planification des protéines et obtenir des données statistiques pour les prévisions futures en utilisant Google Apps Scripts avec HTML/CSS/JS.",
+          "Création de bots Slack pour automatiser les rapports d'installation et la maintenance/nettoyage des machines en utilisant Slack Apps et JS.",
+          "Écriture de scripts pour le département d'inspection pour suivre la maintenance des machines chaque semaine et rapporter automatiquement dans Google Sheet.",
+          "Développement d'une application web pour trouver la perte dans la planification des matériaux et afficher les erreurs au directeur de l'automatisation.",
+          "Révision et correction de l'ancien code pour inclure plus de fonctionnalités et prendre moins de temps/mémoire."
+        ],
+        "skills": ["JavaScript", "Développement d'Applications Web", "Google Apps Script", "Intégrations API", "Visualisation de Données", "Intégration de Bot Slack", "Google Sheets", "Résolution de Problèmes", "Communication", "Automatisation de Google Sheets", "HTML5", "Gestion des Stocks"]
+      },
+      "projectsTitle": "Projets",
+    "projects": [
+      {
+        "name": "Plateforme de Réseautage Professionnel",
+        "link": "https://github.com/OussamaJmili/Professional-Networking-Platform",
+        "date": "Avril 2023",
+        "description": "Une plateforme inspirée de LinkedIn pour les connexions et collaborations professionnelles.",
+        "tasks": ["Développement d'une plateforme de réseautage utilisant ReactJS, Redux et Firebase pour connecter les professionnels et promouvoir la collaboration."],
+        "skills": ["ReactJS", "Redux", "Firebase", "Firestore", "Design Responsive", "Architecture Évolutive"]
+      },
+      {
+        "name": "ShopBright",
+        "link": "https://github.com/OussamaJmili/ShopBright",
+        "date": "Avril 2022",
+        "description": "Un site web de commerce électronique semblable à Amazon pour une expérience de shopping en ligne sans faille, pratique et sécurisée.",
+        "tasks": ["Développement d'un site web de commerce électronique complet utilisant ReactJS et Firebase, facilitant une expérience de navigation et d'achat transparente."],
+        "skills": ["ReactJS", "Bootstrap", "Firebase", "HTML", "CSS", "JavaScript"]
+      }
+    ]
   }
 }

@@ -114,6 +114,71 @@
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "Email"
-  }
-  
+  },
+  "resume": {
+      "downloadResume": "Download Resume",
+      "name": "Oussama Jmili",
+      "title": "Software Engineering Student",
+      "contactEmail": "oussamajmili16@gmail.com",
+      "contactPhone": "+1 438 508 46 15",
+      "contactWebsite": "oussamajmili.com",
+      "contactLinkedin": "oussama-jmili",
+      "contactGithub": "OussamaJmili",
+      "intro": "A highly motivated and eager third-year software engineering student seeking opportunities to learn and gain hands-on experience in the field.",
+      "skillsTitle": "SUMMARY OF SKILLS AND QUALIFICATIONS",
+      "skills": [
+        "Operating Systems: Windows, Linux, Android",
+        "Applications: Word, Excel, PPT, Eclipse, Adobe, Visual Studio Code",
+        "Programming: Java, Html, CSS, C, C#, JavaScript, Python, React, Lisp, Prolog, GitHub, Git, Agile",
+        "Languages: French, English, Arabic (Standard & Moroccan), Japanese",
+        "Licenses & Certifications: Valid driving permit, Public Speaking certificate"
+      ],
+      "educationTitle": "Education",
+      "education": {
+        "degree": "Bachelor of Software Engineering(Co-op) ",
+        "university": "Concordia University, Montreal, QC",
+        "dates": "2020 - 2024",
+        "coursesLabel": "Relevant Courses",
+        "coursesList": [
+          "COMP 248-249 | OOP- Programming",
+          "COMP 352 | Data Structures & Algorithms"
+        ]
+      },
+      "workTitle": "Work Experience",
+      "work": {
+        "role": "Intern, Software Engineer ",
+        "company": "GoodFood, ",
+        "location": "Montreal, QC, CA",
+        "dates": "May 2022 - August 2022",
+        "tasks": [
+          "Built a web app to track protein planning and get statistical data for future forecasts using Google Apps Scripts with HTML/CSS/JS.",
+          "Built Slack bots to automate facility reports and machine maintenance/cleaning using Slack Apps and JS.",
+          "Wrote scripts for the inspection department to track machine maintenance weekly and report back in Google Sheet automatically.",
+          "Built a web app to find loss in material planning and display errors to the director of automation.",
+          "Reviewed and fixed old code to include more functionality and take less time/memory."
+        ],
+        "skills": ["JavaScript", "Web Application Development", "Google Apps Script", "API Integrations", "Data Visualization", "Slack Bot Integration", "Google Sheets", "Problem Solving", "Communication", "Google Sheets Automation", "HTML5", "Inventory Management"]
+      },
+      "projectsTitle": "Projects",
+      "projects": [
+        {
+          "name": "Professional Networking Platform",
+          "link": "https://github.com/OussamaJmili/Professional-Networking-Platform",
+          "date": "April 2023",
+          "description": "A LinkedIn-inspired platform for professional connections and collaboration.",
+          "tasks": ["Developed a networking platform leveraging ReactJS, Redux, and Firebase to connect professionals and promote collaboration."],
+          "skills": ["ReactJS", "Redux", "Firebase", "Firestore", "Responsive Design", "Scalable Architecture"]
+        },
+        {
+          "name": "ShopBright",
+          "link": "https://github.com/OussamaJmili/ShopBright",
+          "date": "April 2022",
+          "description": "An Amazon-like e-commerce website for seamless, convenient, and safe online shopping.",
+          "tasks": [
+            "Developed a comprehensive e-commerce website using ReactJS and Firebase, facilitating seamless browsing and purchasing experience."
+          ],
+          "skills": ["ReactJS", "Bootstrap", "Firebase", "HTML", "CSS", "JavaScript"]
+        }
+      ]
+    }
 }
