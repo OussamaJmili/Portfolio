@@ -160,6 +160,7 @@
         "skills": ["JavaScript", "Web Application Development", "Google Apps Script", "API Integrations", "Data Visualization", "Slack Bot Integration", "Google Sheets", "Problem Solving", "Communication", "Google Sheets Automation", "HTML5", "Inventory Management"]
       },
       "projectsTitle": "Projects",
+      "githubLink": "GitHub Link",
       "projects": [
         {
           "name": "Professional Networking Platform",

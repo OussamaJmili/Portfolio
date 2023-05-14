@@ -160,6 +160,7 @@
         "skills": ["JavaScript", "Développement d'Applications Web", "Google Apps Script", "Intégrations API", "Visualisation de Données", "Intégration de Bot Slack", "Google Sheets", "Résolution de Problèmes", "Communication", "Automatisation de Google Sheets", "HTML5", "Gestion des Stocks"]
       },
       "projectsTitle": "Projets",
+    "githubLink": "Lien GitHub",
     "projects": [
       {
         "name": "Plateforme de Réseautage Professionnel",

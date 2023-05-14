@@ -71,27 +71,33 @@ const ReactPage = () => {
             ))}</p>
         </div>
     </div>
-    <div className="project-section">
+<div className="project-section">
   <h2 className="section-title">{t('resume.projectsTitle')}</h2>
   <div className="section-content">
-    <div className="project-date">
-      <div className="project-name">Professional Networking Platform, <span className="project-location"><a href="https://github.com/OussamaJmili/Professional-Networking-Platform" target='_blank'>GitHub Link</a></span></div>
-      <div className="section-date">April 2023</div>
-    </div>
-    <p>A LinkedIn-inspired platform for professional connections and collaboration.</p>
-    <ul>
-      <li className="bullet-point">Developed a networking platform leveraging ReactJS, Redux, and Firebase to connect professionals and promote collaboration.</li>
-    </ul>
-    <p class="job-skills"><span class="job-skills-span">Skills</span> ReactJS, Redux, Firebase, Firestore, Responsive Design, Scalable Architecture</p>
-    <div className="project-date">
-      <div className="project-name">ShopBright, <span className="project-location"><a href="https://github.com/OussamaJmili/ShopBright" target='_blank'>GitHub Link</a></span></div>
-      <div className="section-date">April 2022</div>
-    </div>
-    <p>An Amazon-like e-commerce website for seamless, convenient, and safe online shopping.</p>
-    <ul>
-      <li className="bullet-point">Developed a comprehensive e-commerce website using ReactJS and Firebase, facilitating seamless browsing and purchasing experience.</li>
-    </ul>
-    <p class="job-skills"><span class="job-skills-span">Skills</span> ReactJS, Bootstrap, Firebase, HTML, CSS, JavaScript</p>
+    {t('resume.projects', { returnObjects: true }).map((project) => (
+      <div key={project.id}>
+        <div className="project-date">
+          <div className="project-name">
+            {project.name},{' '}
+            <span className="project-location">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                {t('resume.githubLink')}
+              </a>
+            </span>
+          </div>
+          <div className="section-date">{project.date}</div>
+        </div>
+        <p>{project.description}</p>
+        <ul>
+          {project.tasks.map((task, index) => (
+            <li className="bullet-point" key={index}>{task}</li>
+          ))}
+        </ul>
+        <p class="job-skills"><span class="job-skills-span">{t('skills')}</span> {project.skills.map(skill => (
+          skill + ", "
+        )) }</p>
+      </div>
+    ))}
   </div>
 </div>
     </div>
